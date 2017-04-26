@@ -1,27 +1,9 @@
--- MySQL dump 10.13  Distrib 5.6.17, for Win64 (x86_64)
---
--- Host: localhost    Database: municipios
--- ------------------------------------------------------
--- Server version	5.6.17
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
 -- Table structure for table `us_cities`
 --
 
 DROP TABLE IF EXISTS `us_cities`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `us_cities` (
   `state_code` char(2) DEFAULT NULL,
   `city` varchar(50) DEFAULT NULL,
@@ -30,14 +12,11 @@ CREATE TABLE `us_cities` (
   `longitude` double DEFAULT NULL,
   UNIQUE KEY `id` (`city`,`state_code`,`county`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
 
 --
 -- Dumping data for table `us_cities`
 --
 
-LOCK TABLES `us_cities` WRITE;
-/*!40000 ALTER TABLE `us_cities` DISABLE KEYS */;
 INSERT INTO `us_cities` VALUES ('AK','Adak','Aleutians West',55.999722,-161.207778);
 INSERT INTO `us_cities` VALUES ('AK','Akiachak','Bethel',60.891854,-161.39233);
 INSERT INTO `us_cities` VALUES ('AK','Akiak','Bethel',60.890632,-161.199325);
@@ -29918,16 +29897,3 @@ INSERT INTO `us_cities` VALUES ('WY','Wright','Campbell',43.829349,-105.532327);
 INSERT INTO `us_cities` VALUES ('WY','Wyarno','Sheridan',44.813333,-106.773333);
 INSERT INTO `us_cities` VALUES ('WY','Yellowstone National Park','Park',44.853913,-110.674366);
 INSERT INTO `us_cities` VALUES ('WY','Yoder','Goshen',41.912018,-104.353507);
-/*!40000 ALTER TABLE `us_cities` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2017-04-26 12:30:19
