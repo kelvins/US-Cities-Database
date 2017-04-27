@@ -8,15 +8,15 @@ The data is ordered by state code, city and county.
 
 ## Sample
 
-| State Code |     City     |    County   | Latitude |  Longitude |
-|:----------:|:------------:|:-----------:|:--------:|:----------:|
-|     NY     |   New York   |   New York  | 40.74838 | -73.996705 |
-|     NY     |   Cleveland  |    Oswego   | 43.24319 | -75.853691 |
-|     ID     |  Idaho City  |    Boise    | 43.75860 | -115.91843 |
-|     AZ     |    Phoenix   |   Maricopa  | 33.45100 | -112.06850 |
-|     CA     |   Palo Alto  | Santa Clara | 37.44432 | -122.14968 |
-|     CA     | Santa Monica | Los Angeles | 34.01762 | -118.49070 |
-|     KS     |   Nashville  |   Kingman   | 37.43441 | -98.417052 |
+| State Code |    State   |     City     |    County   | Latitude |  Longitude |
+|:----------:|:----------:|:------------:|:-----------:|:--------:|:----------:|
+|     NY     |  New York  |   New York   |   New York  | 40.74838 | -73.996705 |
+|     NY     |  New York  |   Cleveland  |    Oswego   | 43.24319 | -75.853691 |
+|     ID     |    Idaho   |  Idaho City  |    Boise    | 43.75860 | -115.91843 |
+|     AZ     |   Arizona  |    Phoenix   |   Maricopa  | 33.45100 | -112.06850 |
+|     CA     | California |   Palo Alto  | Santa Clara | 37.44432 | -122.14968 |
+|     CA     | California | Santa Monica | Los Angeles | 34.01762 | -118.49070 |
+|     KS     |   Kansas   |   Nashville  |   Kingman   | 37.43441 | -98.417052 |
 
 
 ## License
