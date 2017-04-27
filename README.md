@@ -25,4 +25,12 @@ This project was created under the [MIT license][1].
 
 If you find some inconsistent data, such as a duplicated city, please open an issue explaining what is happening or directly fix the problem and send a Pull Request.
 
+## References
+
+This SQL dump was created based on the SQL dump that can be found at the following link:
+[http://www.farinspace.com/us-cities-and-state-sql-dump/][2]
+
+The zip column was deleted. Some duplicated cities were deleted. All data was reorganized.
+
   [1]: LICENSE
+  [2]: http://www.farinspace.com/us-cities-and-state-sql-dump/
