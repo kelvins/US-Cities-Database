@@ -30,7 +30,13 @@ If you find some inconsistent data, such as a duplicated city, please open an is
 This SQL dump was created based on the SQL dump that can be found at the following link:
 [http://www.farinspace.com/us-cities-and-state-sql-dump/][2]
 
-The zip column was deleted. Some duplicated cities were deleted. All data was reorganized.
+Some changes that have been made:
+
+ - The **zip** column was deleted.
+ - Some duplicated cities were deleted.
+ - All data were reorganized (rows and columns).
+ - It was included the **state** column.
+ - It was included the Puerto Rico state name that was missing in the original SQL.
 
   [1]: LICENSE
   [2]: http://www.farinspace.com/us-cities-and-state-sql-dump/
