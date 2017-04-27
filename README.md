@@ -2,7 +2,7 @@
 
 The SQL file has **29.880** registered cities. All cities are located in the **United States**.
 
-The file contains the **state code**, the **city** name, the **county**, **latitude** and **longitude** of all (or almost all) cities from the **United States**.
+The file contains the **state code**, the full **state** name, the **city** name, the **county**, **latitude** and **longitude** of all (or almost all) cities from the **United States**.
 
 The data is ordered by state code, city and county.
 
