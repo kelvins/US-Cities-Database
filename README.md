@@ -35,8 +35,8 @@ The US_CITIES table has all (or almost all) cities from the **United States**.
 
 You can use the following SQL command to export the data to a CSV file.
 
-```
-SELECT * FROM us_cities ORDER BY state ASC, county ASC, city ASC INTO OUTFILE 'C:/US_Cities.csv' FIELDS TERMINATED BY ';' ENCLOSED BY '' LINES TERMINATED BY '\n';
+``` sql
+SELECT US_CITIES.ID, US_STATES.STATE_CODE, US_STATES.STATE_NAME, US_CITIES.CITY, US_CITIES.COUNTY, US_CITIES.LATITUDE, US_CITIES.LONGITUDE FROM US_STATES INNER JOIN US_CITIES ON US_STATES.ID = US_CITIES.ID_STATE ORDER BY US_CITIES.ID ASC INTO OUTFILE 'C:/US_Cities.csv' FIELDS TERMINATED BY ';' ENCLOSED BY '' LINES TERMINATED BY '\n';
 ```
 
 ## License
@@ -55,8 +55,8 @@ Some changes that have been made:
  - The **zip** column was deleted.
  - Some duplicated cities were deleted.
  - All data were reorganized (rows and columns).
- - It was included the **state** column.
  - It was included the Puerto Rico state name that was missing in the original SQL.
+ - It was included the **US_STATES** table.
 
   [1]: LICENSE
   [2]: http://www.farinspace.com/us-cities-and-state-sql-dump/
