@@ -19,6 +19,14 @@ The data is ordered by state code, city and county.
 |     KS     |   Kansas   |   Nashville  |   Kingman   | 37.43441 | -98.417052 |
 
 
+## Export Data
+
+You can use the following SQL command to export the data to a CSV file.
+
+```
+SELECT * FROM us_cities ORDER BY state ASC, county ASC, city ASC INTO OUTFILE 'C:/US_Cities.csv' FIELDS TERMINATED BY ';' ENCLOSED BY '' LINES TERMINATED BY '\n';
+```
+
 ## License
 
 This project was created under the [MIT license][1].
