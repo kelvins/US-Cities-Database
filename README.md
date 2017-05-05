@@ -2,21 +2,33 @@
 
 The SQL file has **29.880** registered cities. All cities are located in the **United States**.
 
-The file contains the **state code**, the full **state** name, the **city** name, the **county**, **latitude** and **longitude** of all (or almost all) cities from the **United States**.
+The SQL file contains two tables:
 
-The data is ordered by state code, city and county.
+ - US_STATES: ID, STATE_CODE and STATE_NAME.
 
-## Sample
+ - US_CITIES: ID, ID_STATE, CITY, COUNTY, LATITUDE and LONGITUDE.
 
-| State Code |    State   |     City     |    County   | Latitude |  Longitude |
-|:----------:|:----------:|:------------:|:-----------:|:--------:|:----------:|
-|     NY     |  New York  |   New York   |   New York  | 40.74838 | -73.996705 |
-|     NY     |  New York  |   Cleveland  |    Oswego   | 43.24319 | -75.853691 |
-|     ID     |    Idaho   |  Idaho City  |    Boise    | 43.75860 | -115.91843 |
-|     AZ     |   Arizona  |    Phoenix   |   Maricopa  | 33.45100 | -112.06850 |
-|     CA     | California |   Palo Alto  | Santa Clara | 37.44432 | -122.14968 |
-|     CA     | California | Santa Monica | Los Angeles | 34.01762 | -118.49070 |
-|     KS     |   Kansas   |   Nashville  |   Kingman   | 37.43441 | -98.417052 |
+The US_CITIES table has all (or almost all) cities from the **United States**.
+
+## Samples
+
+### US_STATES
+
+| ID | STATE_CODE | STATE_NAME |
+|:--:|:----------:|:----------:|
+|  1 |     AL     |   Alabama  |
+|  2 |     AK     |   Alaska   |
+|  3 |     AZ     |   Arizona  |
+
+### US_CITIES
+
+| ID | ID_STATE |      CITY      |      COUNTY      | LATITUDE  | LONGITUDE  |
+|:--:|:--------:|:--------------:|:----------------:|:---------:|:----------:|
+|  1 |    2     |      Adak      |  Aleutians West  | 55.999722 | -161.20777 |
+|  2 |    2     |    Akiachak    |      Bethel      | 60.891854 | -161.39233 |
+|  3 |    2     |     Akiak      |      Bethel      | 60.890632 | -161.19932 |
+|  4 |    2     |     Akutan     |  Aleutians East  | 54.143012 | -165.78536 |
+|  5 |    2     |    Alakanuk    |   Wade Hampton   | 62.746967 | -164.60228 |
 
 
 ## Export Data
