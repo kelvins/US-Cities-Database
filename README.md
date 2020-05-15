@@ -10,6 +10,8 @@ The SQL file contains two tables:
 
 The US_CITIES table has all (or almost all) cities from the **United States**.
 
+## Compatibility
+The [us_cities.sql](./us_cities.sql) file is compatible with MySQL. See [sqlite](./sqlite) for the sqlite3 compatible version.
 ## Samples
 
 ### US_STATES
@@ -55,6 +57,7 @@ ENCLOSED BY
 LINES TERMINATED BY
 	'\n';
 ```
+For convenience, the generated CSV file is [here](./csv/us_cities.csv).
 
 ## License
 
