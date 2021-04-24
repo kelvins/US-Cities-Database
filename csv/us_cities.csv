@@ -3,7 +3,7 @@ ID,STATE_CODE,STATE_NAME,CITY,COUNTY,LATITUDE,LONGITUDE
 2,AK,Alaska,Akiachak,Bethel,60.891854,-161.39233
 3,AK,Alaska,Akiak,Bethel,60.890632,-161.199325
 4,AK,Alaska,Akutan,"Aleutians East",54.143012,-165.785368
-5,AK,Alaska,Alakanuk,"Wade Hampton",62.746967,-164.60228
+5,AK,Alaska,Alakanuk,"Kusilvak",62.746967,-164.60228
 6,AK,Alaska,Aleknagik,Dillingham,59.269688,-158.619882
 7,AK,Alaska,Allakaket,"Yukon Koyukuk",66.543197,-152.712155
 8,AK,Alaska,Ambler,"Northwest Arctic",67.46951,-156.455652
@@ -29,7 +29,7 @@ ID,STATE_CODE,STATE_NAME,CITY,COUNTY,LATITUDE,LONGITUDE
 28,AK,Alaska,Central,"Yukon Koyukuk",65.468058,-144.74886
 29,AK,Alaska,Chalkyitsik,"Yukon Koyukuk",66.719,-143.638121
 30,AK,Alaska,Chefornak,Bethel,60.153746,-164.210294
-31,AK,Alaska,Chevak,"Wade Hampton",61.583982,-164.776457
+31,AK,Alaska,Chevak,"Kusilvak",61.583982,-164.776457
 32,AK,Alaska,Chicken,"Southeast Fairbanks",64.075,-141.933333
 33,AK,Alaska,Chignik,"Lake And Peninsula",56.301639,-158.415696
 34,AK,Alaska,"Chignik Lagoon","Lake And Peninsula",56.251277,-158.673528
@@ -62,7 +62,7 @@ ID,STATE_CODE,STATE_NAME,CITY,COUNTY,LATITUDE,LONGITUDE
 61,AK,Alaska,"Elfin Cove","Skagway Hoonah Angoon",58.195,-136.358333
 62,AK,Alaska,Elim,Nome,64.621662,-162.260371
 63,AK,Alaska,"Elmendorf Afb",Anchorage,61.251531,-149.812667
-64,AK,Alaska,Emmonak,"Wade Hampton",62.827404,-164.131298
+64,AK,Alaska,Emmonak,"Kusilvak",62.827404,-164.131298
 65,AK,Alaska,Ester,"Fairbanks North Star",64.846667,-148.016667
 66,AK,Alaska,Fairbanks,"Fairbanks North Star",64.840238,-147.710431
 67,AK,Alaska,"False Pass","Aleutians East",54.841028,-163.436845
@@ -83,7 +83,7 @@ ID,STATE_CODE,STATE_NAME,CITY,COUNTY,LATITUDE,LONGITUDE
 82,AK,Alaska,"Holy Cross","Yukon Koyukuk",62.192584,-159.825092
 83,AK,Alaska,Homer,"Kenai Peninsula",59.665495,-151.462644
 84,AK,Alaska,Hoonah,"Skagway Hoonah Angoon",58.032237,-135.558435
-85,AK,Alaska,"Hooper Bay","Wade Hampton",61.537157,-165.891045
+85,AK,Alaska,"Hooper Bay","Kusilvak",61.537157,-165.891045
 86,AK,Alaska,Hope,"Kenai Peninsula",60.92,-149.641667
 87,AK,Alaska,Houston,"Matanuska Susitna",61.633611,-149.841111
 88,AK,Alaska,Hughes,"Yukon Koyukuk",66.038246,-154.26443
@@ -111,7 +111,7 @@ ID,STATE_CODE,STATE_NAME,CITY,COUNTY,LATITUDE,LONGITUDE
 110,AK,Alaska,Kobuk,"Northwest Arctic",66.912253,-157.066864
 111,AK,Alaska,Kodiak,"Kodiak Island",57.781967,-152.500169
 112,AK,Alaska,Kongiganak,Bethel,60.9888,-149.4116
-113,AK,Alaska,Kotlik,"Wade Hampton",63.029471,-163.554153
+113,AK,Alaska,Kotlik,"Kusilvak",63.029471,-163.554153
 114,AK,Alaska,Kotzebue,"Northwest Arctic",66.846459,-162.126493
 115,AK,Alaska,Koyuk,Nome,64.931668,-161.149957
 116,AK,Alaska,Koyukuk,"Yukon Koyukuk",64.883333,-157.7
@@ -123,14 +123,14 @@ ID,STATE_CODE,STATE_NAME,CITY,COUNTY,LATITUDE,LONGITUDE
 122,AK,Alaska,"Lower Kalskag",Bethel,61.51377,-160.359966
 123,AK,Alaska,"Manley Hot Springs","Yukon Koyukuk",65.02058,-150.573267
 124,AK,Alaska,Manokotak,Dillingham,59.009559,-158.989699
-125,AK,Alaska,Marshall,"Wade Hampton",61.837087,-161.7394
+125,AK,Alaska,Marshall,"Kusilvak",61.837087,-161.7394
 126,AK,Alaska,"Mc Grath","Yukon Koyukuk",62.967153,-155.585153
 127,AK,Alaska,Mekoryuk,Bethel,60.365679,-166.283583
 128,AK,Alaska,Metlakatla,"Prince Wales Ketchikan",55.121491,-131.579001
 129,AK,Alaska,"Meyers Chuck","Prince Wales Ketchikan",55.741667,-132.253333
 130,AK,Alaska,Minto,"Yukon Koyukuk",65.058399,-149.691186
 131,AK,Alaska,"Moose Pass","Kenai Peninsula",60.85852,-149.255911
-132,AK,Alaska,"Mountain Village","Wade Hampton",62.158913,-163.883822
+132,AK,Alaska,"Mountain Village","Kusilvak",62.158913,-163.883822
 133,AK,Alaska,Naknek,"Bristol Bay",58.885699,-156.705405
 134,AK,Alaska,Napakiak,Bethel,60.663758,-161.738144
 135,AK,Alaska,Nenana,"Yukon Koyukuk",64.557656,-149.086744
@@ -148,7 +148,7 @@ ID,STATE_CODE,STATE_NAME,CITY,COUNTY,LATITUDE,LONGITUDE
 147,AK,Alaska,Northway,"Southeast Fairbanks",62.964167,-141.908611
 148,AK,Alaska,Nuiqsut,"North Slope",70.192737,-150.997119
 149,AK,Alaska,Nulato,"Yukon Koyukuk",64.778024,-157.991353
-150,AK,Alaska,"Nunam Iqua","Wade Hampton",62.509167,-164.453333
+150,AK,Alaska,"Nunam Iqua","Kusilvak",62.509167,-164.453333
 151,AK,Alaska,Nunapitchuk,Bethel,60.896944,-162.459444
 152,AK,Alaska,"Old Harbor","Kodiak Island",57.202778,-153.303889
 153,AK,Alaska,Ouzinkie,"Kodiak Island",57.925,-152.491667
@@ -158,7 +158,7 @@ ID,STATE_CODE,STATE_NAME,CITY,COUNTY,LATITUDE,LONGITUDE
 157,AK,Alaska,Perryville,"Lake And Peninsula",55.945289,-159.259333
 158,AK,Alaska,Petersburg,"Wrangell Petersburg",56.827134,-133.160683
 159,AK,Alaska,"Pilot Point","Lake And Peninsula",57.595193,-157.449272
-160,AK,Alaska,"Pilot Station","Wade Hampton",61.946159,-162.874716
+160,AK,Alaska,"Pilot Station","Kusilvak",61.946159,-162.874716
 161,AK,Alaska,Platinum,Bethel,58.63364,-162.043201
 162,AK,Alaska,"Point Baker","Prince Wales Ketchikan",56.307858,-133.376372
 163,AK,Alaska,"Point Hope","North Slope",68.312058,-166.72618
@@ -172,15 +172,15 @@ ID,STATE_CODE,STATE_NAME,CITY,COUNTY,LATITUDE,LONGITUDE
 171,AK,Alaska,Rampart,"Yukon Koyukuk",65.383627,-150.011201
 172,AK,Alaska,"Red Devil",Bethel,61.735389,-157.195969
 173,AK,Alaska,Ruby,"Yukon Koyukuk",64.720062,-155.503872
-174,AK,Alaska,"Russian Mission","Wade Hampton",61.591302,-161.558413
+174,AK,Alaska,"Russian Mission","Kusilvak",61.591302,-161.558413
 175,AK,Alaska,"Saint George Island","Aleutians West",56.60324,-169.547257
-176,AK,Alaska,"Saint Marys","Wade Hampton",62.054106,-163.205263
+176,AK,Alaska,"Saint Marys","Kusilvak",62.054106,-163.205263
 177,AK,Alaska,"Saint Michael",Nome,63.47759,-162.109141
 178,AK,Alaska,"Saint Paul Island","Aleutians West",57.178697,-170.293408
 179,AK,Alaska,Salcha,"Fairbanks North Star",64.50905,-146.952974
 180,AK,Alaska,"Sand Point","Aleutians East",55.319236,-160.491435
 181,AK,Alaska,Savoonga,Nome,63.679737,-170.470908
-182,AK,Alaska,"Scammon Bay","Wade Hampton",61.845019,-165.581945
+182,AK,Alaska,"Scammon Bay","Kusilvak",61.845019,-165.581945
 183,AK,Alaska,Selawik,"Northwest Arctic",65.713537,-158.534287
 184,AK,Alaska,Seldovia,"Kenai Peninsula",59.436667,-151.708333
 185,AK,Alaska,Seward,"Kenai Peninsula",60.132874,-149.39849
