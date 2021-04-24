@@ -30,7 +30,7 @@ The [us_cities.sql](./us_cities.sql) file is compatible with MySQL. See [sqlite]
 |  2 |    2     |    Akiachak    |      Bethel      | 60.891854 | -161.39233 |
 |  3 |    2     |     Akiak      |      Bethel      | 60.890632 | -161.19932 |
 |  4 |    2     |     Akutan     |  Aleutians East  | 54.143012 | -165.78536 |
-|  5 |    2     |    Alakanuk    |   Wade Hampton   | 62.746967 | -164.60228 |
+|  5 |    2     |    Alakanuk    |     Kusilvak     | 62.746967 | -164.60228 |
 
 
 ## Export Data
